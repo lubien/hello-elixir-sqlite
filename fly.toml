@@ -1,17 +1,17 @@
-# fly.toml app configuration file generated for hello-elixir-sqlite-fs3mmg on 2024-12-06T15:57:29Z
+# fly.toml app configuration file generated for hello-elixir-sqlite-qrh91a on 2024-12-09T15:22:18Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'hello-elixir-sqlite-fs3mmg'
-primary_region = 'iad'
+app = 'hello-elixir-sqlite-qrh91a'
+primary_region = 'gru'
 kill_signal = 'SIGTERM'
 
 [build]
 
 [env]
   DATABASE_PATH = '/mnt/name/name.db'
-  PHX_HOST = 'hello-elixir-sqlite-fs3mmg.fly.dev'
+  PHX_HOST = 'hello-elixir-sqlite-qrh91a.fly.dev'
   PORT = '8080'
 
 [[mounts]]
